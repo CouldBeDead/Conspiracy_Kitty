@@ -6,7 +6,7 @@ public class TelekinesisScript : MonoBehaviour
     private bool isColliding;
     private bool hasAnObject;
 
-    [SerializeField] private float maxSpeed = 10f;
+    //[SerializeField] private float maxSpeed = 10f;
 
     private Camera mainCamera;
     private BoxCollider2D boxCollider2D;
@@ -18,12 +18,13 @@ public class TelekinesisScript : MonoBehaviour
         {
             isColliding = true;
 
-            //boxCollider2D = other.gameObject.GetComponent<BoxCollider2D>();
-
             otherObject = other.gameObject;
+            boxCollider2D = otherObject.GetComponent<BoxCollider2D>();
+
+            Debug.Log("Colliding");
         }
     }
-    private void OnCollisionExit()
+    private void OnCollisionExit2D()
     {
         isColliding = false;
     }
@@ -32,18 +33,27 @@ public class TelekinesisScript : MonoBehaviour
     {
         Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        if (isColliding == true)
+        if (isColliding == true && hasAnObject == false)
         {
-            if ((Input.GetKeyDown(KeyCode.E) && hasAnObject == false))
+            boxCollider2D.enabled = true;
+
+            if (Input.GetKeyDown(KeyCode.E))
             {
-                hasAnObject = true;
-                //otherObject.transform.position = Vector2.MoveTowards(otherObject.transform.position, mousePosition, moveSpeed * Time.deltaTime);
+                hasAnObject = !hasAnObject;
+                isColliding = false;
             }        
         }
 
-        if(hasAnObject == true)
+        if (hasAnObject == true)
         {
             otherObject.transform.position = mouseWorldPosition();
+            boxCollider2D.enabled = false;
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                hasAnObject = !hasAnObject;
+                boxCollider2D.enabled = true;
+            }
         }
     }
     private Vector2 mouseWorldPosition()
