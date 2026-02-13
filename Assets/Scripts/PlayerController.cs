@@ -12,6 +12,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
 
+    // [SerializeField] private Transform objectCheck;
+    // [SerializeField] private LayerMask objectLayer;
+
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
@@ -63,9 +66,9 @@ public class PlayerController : MonoBehaviour
         rB.linearVelocity = new Vector2(horizontal * speed, rB.linearVelocity.y); //Basic left and right movement.
     }
 
-    private bool isGrounded() //Checks if the player has hit the ground or object or not.
+    private bool isGrounded() //Checks if the player has hit the ground/object or not.
     {
-        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer); 
+        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
     private void Flip() //Doesn't really work. Just teleports the player to the opposite side of the scene.
     { 

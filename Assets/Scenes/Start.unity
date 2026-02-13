@@ -649,7 +649,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -693,7 +693,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraMovement
   target: {fileID: 1000307322}
-  offset: {x: 0, y: 3.5, z: -10}
+  offset: {x: 10, y: 7.5, z: -10}
 --- !u!4 &670349017 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1208981104810749661, guid: ec9e6d8cd5d7f1041b19ca092b5890b3, type: 3}
@@ -925,6 +925,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c658313acef2d649b4bd0b97ca39abf, type: 3}
+--- !u!1 &829179083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 829179084}
+  m_Layer: 0
+  m_Name: ObjectCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &829179084
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829179083}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1000307322}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &836630918 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1208981104810749661, guid: ec9e6d8cd5d7f1041b19ca092b5890b3, type: 3}
@@ -963,6 +994,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 728213420}
+  - {fileID: 829179084}
   m_Father: {fileID: 1159702469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1000307323
@@ -1220,7 +1252,7 @@ MonoBehaviour:
   groundCheck: {fileID: 728213420}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 192
 --- !u!1001 &1398440303
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1607,6 +1639,10 @@ PrefabInstance:
     - target: {fileID: 3133649771244946234, guid: aa24fc1808640a74f89ab958cceb1bc5, type: 3}
       propertyPath: m_Name
       value: MoveableObjs
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133649771244946234, guid: aa24fc1808640a74f89ab958cceb1bc5, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3856132584764665704, guid: aa24fc1808640a74f89ab958cceb1bc5, type: 3}
       propertyPath: m_LocalScale.x
