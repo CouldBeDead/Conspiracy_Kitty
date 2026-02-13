@@ -4,12 +4,14 @@ public class TelekinesisScript : MonoBehaviour
 {
     private bool inScene;
     private bool isColliding;
-    private bool hasAnObject;
+
+    public bool hasAnObject;
 
     //[SerializeField] private float maxSpeed = 10f;
 
     private Camera mainCamera;
     private BoxCollider2D boxCollider2D;
+    private SpriteRenderer spriteRenderer;
     private GameObject otherObject;
 
     private void OnCollisionEnter2D(Collision2D other)
