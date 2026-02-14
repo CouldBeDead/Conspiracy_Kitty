@@ -3,7 +3,7 @@ using UnityEngine;
 public class Moveables : MonoBehaviour
 {
     private Vector3 startingPosition;
-    private TelekinesisScript telekinesisScript;
+    //private TelekinesisScript telekinesisScript;
     private GameObject playerObject;
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -15,7 +15,7 @@ public class Moveables : MonoBehaviour
     {
         startingPosition = transform.position;
 
-        telekinesisScript = GameObject.Find("Player/Square").GetComponent<TelekinesisScript>();
+        //telekinesisScript = GameObject.Find("Player/Square").GetComponent<TelekinesisScript>();
         playerObject = GameObject.Find("Player");
     }
     public void Update()
