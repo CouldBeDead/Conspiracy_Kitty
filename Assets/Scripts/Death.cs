@@ -2,15 +2,18 @@ using UnityEngine;
 
 public class Death : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private Vector2 respawnPoint;
+
+    void Start() 
     {
-        
+        respawnPoint = transform.position; // Set the initial respawn point to the starting position
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            transform.position = respawnPoint; // Respawn the player at the respawn point
+        }
     }
 }
