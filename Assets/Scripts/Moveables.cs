@@ -4,6 +4,7 @@ public class Moveables : MonoBehaviour
 {
     private Vector3 startingPosition;
     private TelekinesisScript telekinesisScript;
+    private GameObject playerObject;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -15,9 +16,10 @@ public class Moveables : MonoBehaviour
         startingPosition = transform.position;
 
         telekinesisScript = GameObject.Find("Player/Square").GetComponent<TelekinesisScript>();
+        playerObject = GameObject.Find("Player");
     }
-    private void Update()
+    public void Update()
     {
-        if(transform.position.y < -2) startingPosition = transform.position;
+        if(transform.position.y < (playerObject.transform.position.y - 6f)) transform.position = startingPosition;
     }
 }
