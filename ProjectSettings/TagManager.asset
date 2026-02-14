@@ -9,6 +9,7 @@ TagManager:
   - Moveable
   - Usable
   - Death
+  - Wall
   layers:
   - Default
   - TransparentFX
