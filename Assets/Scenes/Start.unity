@@ -821,7 +821,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd21b9d56783d85458b197110ef07c1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::telekinesisScript
-  forceAmount: 25
 --- !u!61 &765585125
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1745,6 +1744,6 @@ SceneRoots:
   - {fileID: 619340842}
   - {fileID: 83431273}
   - {fileID: 1159702469}
-  - {fileID: 1964777215}
   - {fileID: 4835736398762943381}
   - {fileID: 791810819}
+  - {fileID: 1964777215}
