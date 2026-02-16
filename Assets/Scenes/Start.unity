@@ -1633,6 +1633,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3773097769984787390, guid: 48a0dd52e382a9948b523f789f4b0530, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773097769984787390, guid: 48a0dd52e382a9948b523f789f4b0530, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773097769984787390, guid: 48a0dd52e382a9948b523f789f4b0530, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.23
       objectReference: {fileID: 0}
@@ -1680,6 +1688,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1000307322}
+    - target: {fileID: 8785047382088626267, guid: 48a0dd52e382a9948b523f789f4b0530, type: 3}
+      propertyPath: fireRate
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8785047382088626267, guid: 48a0dd52e382a9948b523f789f4b0530, type: 3}
       propertyPath: shootRange
       value: 10
