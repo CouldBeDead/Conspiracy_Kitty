@@ -227,7 +227,7 @@ Transform:
   m_GameObject: {fileID: 4799294934844117966}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.161, y: 0, z: 0}
+  m_LocalPosition: {x: 2.439, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -285,7 +285,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 2698900609257702533, guid: 8d29f17a758e05649aff88e9101d6f9b, type: 3}
   shootRange: 8
   fireRate: 1
-  flipWithEnemyScale: 0
+  flipWithEnemyScale: 1
 --- !u!1 &7761206868684184523
 GameObject:
   m_ObjectHideFlags: 0
@@ -298,6 +298,7 @@ GameObject:
   - component: {fileID: 2013972185213284862}
   - component: {fileID: 9100024118334846268}
   - component: {fileID: 4552515796648535717}
+  - component: {fileID: 4800880282702312378}
   m_Layer: 0
   m_Name: Bad_Guy
   m_TagString: Untagged
@@ -410,3 +411,16 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 2.9939868}
   m_EdgeRadius: 0
+--- !u!114 &4800880282702312378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7761206868684184523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd99c4ccf893bd74cbba158c9fc63cdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyDeath
+  hittingTag: Moveable
