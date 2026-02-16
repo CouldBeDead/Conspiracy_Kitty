@@ -11,18 +11,23 @@ public class Bullet2D : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        rb.gravityScale = 0f;
+        rb.freezeRotation = true;
     }
 
     void Start()
     {
-        rb.linearVelocity = (Vector2)transform.right * speed; // assumes bullet faces right
+        // Shoot in the direction the bullet is facing
+        rb.linearVelocity = transform.right * speed;
+
         Destroy(gameObject, lifeTime);
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        // Optional: ignore enemy collider by tag/layer if you want
-        // if (other.CompareTag("Enemy")) return;
+        // Ignore shooter
+        if (other.CompareTag("Player"))
+            return;
 
         Destroy(gameObject);
     }
