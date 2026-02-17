@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6793201177879445995}
   m_Layer: 0
   m_Name: Bullet_obj
-  m_TagString: Usable
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,7 +129,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   faceVelocity: 1
-  lifeTime: 3
 --- !u!61 &6793201177879445995
 BoxCollider2D:
   m_ObjectHideFlags: 0
