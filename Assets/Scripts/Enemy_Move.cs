@@ -16,6 +16,8 @@ public class EnemyFollow2D : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundLayer;
 
+    //Activation Range 
+    public float activationRange = 10f;
 
     void Awake()
     {
@@ -37,15 +39,16 @@ public class EnemyFollow2D : MonoBehaviour
         Vector2 direction = (Vector2)player.position - rb.position;
         float distance = direction.magnitude;
 
+        if (distance <= activationRange && distance > stoppingDistance)
+        {
+           
+
         //Check if there is NO ground in front of the enemy, if so, stop moving
         //RaycastHit2D groundInfo = Physics2D.Raycast(groundCheck.position, Vector2.down, 1f, groundLayer);
         bool isGroundAhead = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
 
-        Debug.DrawRay(groundCheck.position, Vector2.down * 100f, Color.red, 5.0f); // Visualize the raycast in the editor
+        //Debug.DrawRay(groundCheck.position, Vector2.down * 100f, Color.red, 5.0f); // Visualize the raycast in the editor
 
-
-        if (distance > stoppingDistance)
-        {
             if (isGroundAhead) {
 
                 direction.Normalize();

@@ -9,7 +9,7 @@ public class ShoulderAimAndShoot2D : MonoBehaviour
 
     [Header("Shooting")]
     public GameObject bulletPrefab;
-    public float shootRange = 6f;
+    public float shootRange = 10f;
     public float fireRate = 3f; // bullets per second
 
     [Header("Optional")]
