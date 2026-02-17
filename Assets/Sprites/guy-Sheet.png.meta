@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: ee125b58f236f4e9a9968795dc52c113
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -946140698268541013
+    second: guy-Sheet_0
+  - first:
+      213: 683566413120930230
+    second: guy-Sheet_1
+  - first:
+      213: 609376017836214692
+    second: guy-Sheet_2
+  - first:
+      213: -3130561957178970868
+    second: guy-Sheet_3
+  - first:
+      213: 9184204400342377814
+    second: guy-Sheet_4
+  - first:
+      213: 2687843930660387353
+    second: guy-Sheet_5
+  - first:
+      213: 7224055650942235324
+    second: guy-Sheet_6
+  - first:
+      213: 6899243873723135792
+    second: guy-Sheet_7
+  - first:
+      213: 6462410392380417691
+    second: guy-Sheet_8
+  - first:
+      213: -3041446942280786188
+    second: guy-Sheet_9
+  - first:
+      213: -970373418446859797
+    second: guy-Sheet_10
+  - first:
+      213: -6764951721060492516
+    second: guy-Sheet_11
+  - first:
+      213: 5721147365051620585
+    second: guy-Sheet_12
+  - first:
+      213: 7384423585992074368
+    second: guy-Sheet_13
+  - first:
+      213: -5543422987091494666
+    second: guy-Sheet_14
+  - first:
+      213: -660767460306271302
+    second: guy-Sheet_15
+  - first:
+      213: 3046711146469485018
+    second: guy-Sheet_16
+  - first:
+      213: 2214584091137831037
+    second: guy-Sheet_17
+  - first:
+      213: -7903153508656286641
+    second: guy-Sheet_18
+  - first:
+      213: 613492463255473550
+    second: guy-Sheet_19
+  - first:
+      213: -6524458218719467094
+    second: guy-Sheet_20
+  - first:
+      213: 5859527948731576097
+    second: guy-Sheet_21
+  - first:
+      213: -1076760338274529082
+    second: guy-Sheet_22
+  - first:
+      213: 1223053348374189713
+    second: guy-Sheet_23
+  - first:
+      213: 8991289090697147939
+    second: guy-Sheet_24
+  - first:
+      213: 6561951227767623022
+    second: guy-Sheet_25
+  - first:
+      213: 1832555718970645993
+    second: guy-Sheet_26
+  - first:
+      213: -112944201025412966
+    second: guy-Sheet_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: guy-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 63
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bafd92c3c02aed2f0800000000000000
+      internalID: -946140698268541013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 95
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b10672f7048c7900800000000000000
+      internalID: 683566413120930230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 65
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a905c57240f47800800000000000000
+      internalID: 609376017836214692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 63
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0deef28c720e84d0800000000000000
+      internalID: -3130561957178970868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 95
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655acfafd39d47f70800000000000000
+      internalID: 9184204400342377814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 63
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ab3ba60d32d4520800000000000000
+      internalID: 2687843930660387353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 95
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2b0100750014460800000000000000
+      internalID: 7224055650942235324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 64
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037be08dfb90fbf50800000000000000
+      internalID: 6899243873723135792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 95
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96a0a633081fa950800000000000000
+      internalID: 6462410392380417691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 95
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fed72ace1c9ac5d0800000000000000
+      internalID: -3041446942280786188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 63
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be15ef5648a8882f0800000000000000
+      internalID: -970373418446859797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 95
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b958f70401e12a0800000000000000
+      internalID: -6764951721060492516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 63
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec50917739956f40800000000000000
+      internalID: 5721147365051620585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 95
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084e21a802eba7660800000000000000
+      internalID: 7384423585992074368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 63
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f83daed92ec113b0800000000000000
+      internalID: -5543422987091494666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 63
+        width: 25
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3ce49ee7b74d6f0800000000000000
+      internalID: -660767460306271302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 31
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9698245a7184a20800000000000000
+      internalID: 3046711146469485018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70708d5f78cbbe10800000000000000
+      internalID: 2214584091137831037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44f82fa1cb525290800000000000000
+      internalID: -7903153508656286641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 31
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8dc8b81520938800800000000000000
+      internalID: 613492463255473550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9295171d77475a0800000000000000
+      internalID: -6524458218719467094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 31
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f6e9fcf99315150800000000000000
+      internalID: 5859527948731576097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 31
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c0dae06d249e01f0800000000000000
+      internalID: -1076760338274529082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 31
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19612335a8829f010800000000000000
+      internalID: 1223053348374189713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 31
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32639d34ac977cc70800000000000000
+      internalID: 8991289090697147939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 31
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d078cffdbb01b50800000000000000
+      internalID: 6561951227767623022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 31
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed1b5497bb8e6910800000000000000
+      internalID: 1832555718970645993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guy-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 31
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90a07af8ddbe6ef0800000000000000
+      internalID: -112944201025412966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      guy-Sheet_0: -946140698268541013
+      guy-Sheet_1: 683566413120930230
+      guy-Sheet_10: -970373418446859797
+      guy-Sheet_11: -6764951721060492516
+      guy-Sheet_12: 5721147365051620585
+      guy-Sheet_13: 7384423585992074368
+      guy-Sheet_14: -5543422987091494666
+      guy-Sheet_15: -660767460306271302
+      guy-Sheet_16: 3046711146469485018
+      guy-Sheet_17: 2214584091137831037
+      guy-Sheet_18: -7903153508656286641
+      guy-Sheet_19: 613492463255473550
+      guy-Sheet_2: 609376017836214692
+      guy-Sheet_20: -6524458218719467094
+      guy-Sheet_21: 5859527948731576097
+      guy-Sheet_22: -1076760338274529082
+      guy-Sheet_23: 1223053348374189713
+      guy-Sheet_24: 8991289090697147939
+      guy-Sheet_25: 6561951227767623022
+      guy-Sheet_26: 1832555718970645993
+      guy-Sheet_27: -112944201025412966
+      guy-Sheet_3: -3130561957178970868
+      guy-Sheet_4: 9184204400342377814
+      guy-Sheet_5: 2687843930660387353
+      guy-Sheet_6: 7224055650942235324
+      guy-Sheet_7: 6899243873723135792
+      guy-Sheet_8: 6462410392380417691
+      guy-Sheet_9: -3041446942280786188
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
